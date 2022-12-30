@@ -10,12 +10,12 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
-        GITHUB_CREDENTIAL_ID = 'github-id'
-        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'docker_username'
-        GITHUB_ACCOUNT = 'kubesphere'
+        DOCKER_CREDENTIAL_ID = 'harbor-v6-login'
+        GITHUB_CREDENTIAL_ID = 'github'
+        KUBECONFIG_CREDENTIAL_ID = 'kubeconfig'
+        REGISTRY = 'core.harbor.domain:30002'
+        DOCKERHUB_NAMESPACE = 'ovensv6'
+        GITHUB_ACCOUNT = 'bobo04020802'
         APP_NAME = 'devops-java-sample'
     }
 
